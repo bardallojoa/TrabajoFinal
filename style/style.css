@@ -1,0 +1,152 @@
+body{
+	background-image: url(../imagen/background/bubble.png);
+	background-attachment: fixed;
+	overflow: auto;
+}
+
+    /*footer*/
+.footer {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;   
+    height: 15%;
+    text-align: center;
+    background-image: url(../imagen/header/header3.jpg);
+    background-size: cover;
+    padding-top: 3em;
+}
+.pie{
+	padding:30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.pie a{
+	text-decoration: none;
+}
+
+.pie__icon--sm{
+	width: 30px;
+}
+
+.pie__titulo--md{
+	font-size: 2rem;
+}
+    /*formulario*/
+.form-main{
+    margin-left: 5em;
+    margin-right: 50%;
+}
+
+    /*lista-navegador*/
+.navegador {
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    font-size: 2em;
+    justify-content: space-around;
+    
+}
+
+.titulo-contacto {
+    margin-left: 1em;
+    color: rgb(235, 141, 141);
+    font-style: oblique;
+
+}
+
+.botonera {
+    background-color: rgba(238, 188, 247, .5);
+    top: 0;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../imagen/header/header.jpg);
+    background-size: cover;
+}
+
+.botonera img{
+    width: 150px;
+}
+.botonera ul{
+
+    display: flex;
+}
+
+.botonera ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+    .botonera ul li a{
+        font-size: 1.8rem;
+        text-decoration: none;
+        color: #5B5959;
+        
+    }
+
+.nosotros{
+    text-align: center;
+    padding-left: 2em;
+    text-decoration: solid;
+    background-size: cover;
+    
+}
+.productos{
+    text-align: center;
+    font-size: 5em;
+    padding-bottom: 1em;
+
+}
+
+
+.main-productos{
+    padding: 2.5em;
+
+   
+}
+.video-nosotros{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5em;
+
+}
+.nosotros{
+    width: 40%;
+    padding-right: 2em;
+}
+.video{
+    width: 60%;
+}
+.integrantes{
+    text-align: center;
+    color: coral;
+    font-size: 3em;
+    padding-top: 10px;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 2em;
+    
+}
+.tabla_tr td{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(128, 0, 0);
+    text-align: center;
+    letter-spacing: 1px;
+    color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
