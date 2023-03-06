@@ -81,7 +81,7 @@ body{
 }
 
     .botonera ul li a{
-        font-size: 1.8rem;
+        
         text-decoration: none;
         color: #5B5959;
         
@@ -98,6 +98,7 @@ body{
     text-align: center;
     font-size: 5em;
     padding-bottom: 1em;
+    align-items: center;
 
 }
 
@@ -150,3 +151,16 @@ table {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
+
+
+@media (max-width: 650px){
+    .navegador{
+        flex-direction: column;
+        font-size: 1em;
+    }
+    .botonera{
+        font-size: 1em;
+    }
+    .form-main{
+        margin-right: 5em;
+    }}

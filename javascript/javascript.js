@@ -1,6 +1,6 @@
-/*window.onbeforeunload = function() {
+window.onbeforeunload = function() {
     return "¿Desea abandonar la pagina?";
-};*/
+};
 
 
 function edad(){
@@ -14,3 +14,13 @@ function edad(){
     }
 }
 edad();
+
+function distancia(){
+    let opcion = prompt ("¿Se encuentra en San Nicolas o dentro de los 40km?")
+    if (option == "si"){
+      alert("No tenes costo de envio")
+    }
+    else (option == "no");{
+      alert("Tenes un costo de envio de $800")
+    }}
+distancia();
