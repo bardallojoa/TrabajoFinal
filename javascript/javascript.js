@@ -16,7 +16,7 @@ function edad(){
 edad();
 
 function distancia(){
-    let opcion = prompt ("¿Se encuentra en San Nicolas o dentro de los 40km?")
+    let option = prompt ("¿Se encuentra en San Nicolas o dentro de los 40km?")
     if (option == "si"){
       alert("No tenes costo de envio")
     }
